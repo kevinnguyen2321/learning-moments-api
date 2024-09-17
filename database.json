@@ -1,0 +1,335 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Alice Johnson",
+      "email": "alice@example.com",
+      "cohort": 70
+    },
+    {
+      "id": 2,
+      "fullName": "Bob Smith",
+      "email": "bob@example.com",
+      "cohort": 21
+    },
+    {
+      "id": 3,
+      "fullName": "Charlie Davis",
+      "email": "charlie@example.com",
+      "cohort": 35
+    },
+    {
+      "id": 4,
+      "fullName": "Dana Miller",
+      "email": "dana@example.com",
+      "cohort": 24
+    },
+    {
+      "id": 5,
+      "fullName": "Eve Thompson",
+      "email": "eve@example.com",
+      "cohort": 62
+    },
+    {
+      "id": 6,
+      "fullName": "Frank Wilson",
+      "email": "frank@example.com",
+      "cohort": 18
+    },
+    {
+      "id": 7,
+      "fullName": "Grace Brown",
+      "email": "grace@example.com",
+      "cohort": 43
+    },
+    {
+      "id": 8,
+      "fullName": "Hank Martinez",
+      "email": "hank@example.com",
+      "cohort": 9
+    },
+    {
+      "id": 9,
+      "fullName": "Ivy Garcia",
+      "email": "ivy@example.com",
+      "cohort": 55
+    },
+    {
+      "id": 10,
+      "fullName": "Jake Lee",
+      "email": "jake@example.com",
+      "cohort": 2
+    },
+    {
+      "fullName": "Mike Brown",
+      "email": "mike.brown@example.com",
+      "cohort": 71,
+      "id": 11
+    },
+    {
+      "fullName": "Johnny Jaime",
+      "email": "johnny.jaime@example.com",
+      "cohort": 72,
+      "id": 12
+    }
+  ],
+  "usersLikedPosts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "postId": 3
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "postId": 5
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "postId": 6
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "postId": 4
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "postId": 7
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "postId": 8
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "postId": 10
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "postId": 9
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "postId": 2
+    },
+    {
+      "id": 14,
+      "userId": 4,
+      "postId": 3
+    },
+    {
+      "id": 15,
+      "userId": 5,
+      "postId": 4
+    },
+    {
+      "id": 16,
+      "userId": 6,
+      "postId": 5
+    },
+    {
+      "id": 17,
+      "userId": 7,
+      "postId": 6
+    },
+    {
+      "id": 18,
+      "userId": 8,
+      "postId": 7
+    },
+    {
+      "id": 19,
+      "userId": 9,
+      "postId": 8
+    },
+    {
+      "id": 20,
+      "userId": 10,
+      "postId": 7
+    },
+    {
+      "userId": 1,
+      "postId": 10,
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "postId": 9,
+      "id": 22
+    },
+    {
+      "userId": 12,
+      "postId": 4,
+      "id": 23
+    },
+    {
+      "userId": 12,
+      "postId": 2,
+      "id": 24
+    },
+    {
+      "userId": 12,
+      "postId": 1,
+      "id": 25
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding Functions",
+      "body": "In this post, we dive deep into the concept of functions and how they work in JavaScript.",
+      "date": "2024-09-05",
+      "userId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "Async Programming Explained",
+      "body": "A comprehensive guide to asynchronous programming with examples in JavaScript.",
+      "date": "2024-09-04",
+      "userId": 2,
+      "topicId": 2
+    },
+    {
+      "id": 3,
+      "title": "Closures in JavaScript",
+      "body": "This post explores the concept of closures in JavaScript and how they can be used effectively.",
+      "date": "2024-09-03",
+      "userId": 3,
+      "topicId": 1
+    },
+    {
+      "id": 4,
+      "title": "Mastering Promises",
+      "body": "Promises are a key part of async programming in JavaScript. This post explains how they work.",
+      "date": "2024-09-02",
+      "userId": 4,
+      "topicId": 2
+    },
+    {
+      "id": 5,
+      "title": "The Event Loop",
+      "body": "Understanding the JavaScript event loop is crucial for mastering async programming.",
+      "date": "2024-09-01",
+      "userId": 5,
+      "topicId": 2
+    },
+    {
+      "id": 6,
+      "title": "Object-Oriented Programming Basics",
+      "body": "Learn the basic principles of object-oriented programming and how to apply them in JavaScript.",
+      "date": "2024-08-31",
+      "userId": 6,
+      "topicId": 3
+    },
+    {
+      "id": 7,
+      "title": "Understanding Scope",
+      "body": "This post explains the different types of scope in JavaScript, including global, function, and block scope.",
+      "date": "2024-08-30",
+      "userId": 7,
+      "topicId": 1
+    },
+    {
+      "id": 8,
+      "title": "Callbacks vs Promises",
+      "body": "A comparison between callbacks and promises, and when to use each in async programming.",
+      "date": "2024-08-29",
+      "userId": 8,
+      "topicId": 2
+    },
+    {
+      "id": 9,
+      "title": "Prototypes and Inheritance",
+      "body": "An introduction to prototypes and inheritance in JavaScript, and how they differ from classical OOP.",
+      "date": "2024-08-28",
+      "userId": 9,
+      "topicId": 3
+    },
+    {
+      "id": 10,
+      "title": "Higher-Order Functions",
+      "body": "This post covers higher-order functions in JavaScript and how they can make code more flexible.",
+      "date": "2024-08-27",
+      "userId": 10,
+      "topicId": 1
+    },
+    {
+      "title": "React is great!",
+      "body": "React is cool!!",
+      "date": "2024-09-17",
+      "userId": 12,
+      "topicId": 8,
+      "id": 11
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Functions"
+    },
+    {
+      "id": 2,
+      "name": "Asynchronous Programming"
+    },
+    {
+      "id": 3,
+      "name": "Object-Oriented Programming"
+    },
+    {
+      "id": 4,
+      "name": "Data Structures"
+    },
+    {
+      "id": 5,
+      "name": "Algorithms"
+    },
+    {
+      "id": 6,
+      "name": "Error Handling"
+    },
+    {
+      "id": 7,
+      "name": "Event-Driven Programming"
+    },
+    {
+      "id": 8,
+      "name": "React"
+    },
+    {
+      "id": 9,
+      "name": "Node.js"
+    },
+    {
+      "id": 10,
+      "name": "Database Management"
+    }
+  ]
+}
