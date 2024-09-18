@@ -69,7 +69,7 @@
     {
       "fullName": "Johnny Jaime",
       "email": "johnny.jaime@example.com",
-      "cohort": 72,
+      "cohort": 69,
       "id": 12
     }
   ],
@@ -288,6 +288,14 @@
       "userId": 12,
       "topicId": 8,
       "id": 11
+    },
+    {
+      "title": "Debugging",
+      "body": "Debugging can be frustrating at times but it is a fundamental skill that every programmer should have.",
+      "date": "2024-09-18",
+      "userId": 12,
+      "topicId": 6,
+      "id": 12
     }
   ],
   "topics": [
